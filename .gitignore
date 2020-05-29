@@ -1,0 +1,12 @@
+# Python bytecode-compiled files folder
+__pycache__/
+
+# VS Code workspace settings
+.vscode/
+
+# To-do list
+TODO.txt
+
+# In & out files
+in/
+out/
