@@ -71,7 +71,7 @@ def parse_args() -> Namespace:
     parser = ArgumentParser(description='This program converts an image into ASCII art.')
     parser.add_argument('-i', '--in', metavar='PATH', dest='image_path',
                         type=str, required=True, help='Image path.')
-    parser.add_argument('-s', '--scale', metavar='FLOAT', type=float, default=0.43,
+    parser.add_argument('-s', '--scale', metavar='FLOAT', type=float, default=0.6,
                         help='Scale value.')
     parser.add_argument('-o', '--out', metavar='PATH', dest='out_txt_path',
                         type=str, default='out.txt',
