@@ -1,13 +1,17 @@
 # Image2ASCII
 ### A program that converts images into ASCII art
 
-Some intro images or GIF
-
 ## Table of contents
+- [Example](#example)
 - [Usage](#usage)
 - [Command-line arguments description](#command-line-arguments-description)
 - [Credits and references](#credits-and-references)
 - [License](#license)
+
+## Example
+| **'In' image** | **'Out' text file** |
+| - | - |
+| ![github_logo_image](README_files/github_logo_image.jpg) | ![github_logo_ascii_image](README_files/github_logo_ascii_image.png) |
 
 ## Usage
 1. Upgrade required packages with `pip install -r requirements.txt --upgrade` (if you don't have one, it will be automatically installed).
