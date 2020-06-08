@@ -38,6 +38,6 @@ optional arguments:
 Grayscale levels values taken from the [Paul Bourke's site](http://paulbourke.net/dataformats/asciiart/).
 
 ## License
-[Image2ASCII](https://github.com/8nhuman8/image2ascii) specific code is distributed under [MIT License](LICENSE).
+[Image2ASCII](https://github.com/8nhuman8/image2ascii) specific code is distributed under [MIT License](https://github.com/8nhuman8/image2ascii/blob/master/LICENSE).
 
 Copyright (c) 2020 Artyom Bezmenov
