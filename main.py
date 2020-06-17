@@ -1,17 +1,17 @@
-from PIL import Image
-import numpy as np
-from argparse import ArgumentParser, Namespace
-
 from json import load
+
+from PIL import Image
+from numpy import array, average
+from argparse import ArgumentParser, Namespace
 
 
 class ImageSizeException(Exception): pass
 
 
 def get_average_luminance(image: Image) -> float:
-    image_array = np.array(image)
+    image_array = array(image)
     width, height = image_array.shape
-    return np.average(image_array.reshape(width * height))
+    return average(image_array.reshape(width * height))
 
 
 def convert_image_to_ascii(image_path: str, cols: int, scale: float, more_levels: bool) -> list:
