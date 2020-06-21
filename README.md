@@ -11,7 +11,7 @@
 ## Example
 | **'In' image** | **'Out' text file** |
 | - | - |
-| ![github_logo_image](README_files/github_logo_image.jpg) | ![github_logo_ascii_image](README_files/github_logo_ascii_image.png) |
+| ![github_logo_image](docs/README/github_logo_image.jpg) | ![github_logo_ascii_image](docs/README/github_logo_ascii_image.png) |
 
 ## Usage
 1. Upgrade required packages with `pip install -r requirements.txt --upgrade` (if you don't have one, it will be automatically installed).
