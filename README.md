@@ -1,7 +1,9 @@
 # Image2ASCII
-### A program that converts images into ASCII art
+
+`A program that converts images into ASCII art`
 
 ## Table of contents
+
 - [Example](#example)
 - [Usage](#usage)
 - [Command-line arguments description](#command-line-arguments-description)
@@ -9,16 +11,19 @@
 - [License](#license)
 
 ## Example
+
 | **'In' image** | **'Out' text file** |
 | - | - |
 | ![github_logo_image](docs/README/github_logo_image.jpg) | ![github_logo_ascii_image](docs/README/github_logo_ascii_image.png) |
 
 ## Usage
+
 1. Upgrade required packages with `pip install -r requirements.txt --upgrade` (if you don't have one, it will be automatically installed).
 2. Check out all the command-line parameters [below](#command-line-arguments-description).
 3. Run the `main.py` with `python main.py -i [path to image you want to convert] [parameters you need]`.
 
 ## Command-line arguments description
+
 ```
 usage: main.py [-h] -i PATH [-s FLOAT] [-o PATH] [-c INT] [-ml]
 
@@ -35,9 +40,11 @@ optional arguments:
 ```
 
 ## Credits and references
+
 Grayscale levels values taken from the [Paul Bourke's site](http://paulbourke.net/dataformats/asciiart/).
 
 ## License
+
 [Image2ASCII](https://github.com/8nhuman8/image2ascii) specific code is distributed under [MIT License](https://github.com/8nhuman8/image2ascii/blob/master/LICENSE).
 
 Copyright (c) 2020 Artyom Bezmenov
