@@ -34,7 +34,7 @@ def convert_image_to_ascii(image_path: str, cols: int, scale: float, more_levels
     print(f'Tile dims: {tile_width}x{tile_height}')
 
     if cols > image_width or rows > image_height:
-        raise ImageSizeException('Image too small for specified cols')
+        raise ImageSizeException('Image too small for specified rows or cols')
 
     ascii_image = []
     for j in range(rows):
